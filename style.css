@@ -4,4 +4,7 @@
     --clr-secondary: #f9faf8;
     --clr-text: #e5e7eb;
     --clr-accent: #3882f6;
+
+    /* FONTS */
+    --ff-primary: "Roboto", sans-serif;
 }
