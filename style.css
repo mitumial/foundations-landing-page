@@ -32,6 +32,17 @@ body {
     background-color: var(--clr-primary);
 }
 
+.cards-wrapper {
+    text-align: center;
+}
+
+.cards-wrapper__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
 /* BLOCKS */
 
 .header__logo {
@@ -87,4 +98,30 @@ body {
     align-items: center;
     background-color: #80848e;
     color: var(--clr-secondary);
+}
+
+.cards-wrapper__title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: var(--clr-primary);
+    margin: 2rem 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.card__img {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 4px solid var(--clr-accent);
+    border-radius: 20px;
+}
+
+.card__text {
+    color: #80848e;
+    margin: 0.5rem 0;
 }
