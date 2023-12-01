@@ -8,3 +8,72 @@
     /* FONTS */
     --ff-primary: "Roboto", sans-serif;
 }
+
+/* BASIC */
+
+body {
+    font-family: var(--ff-primary);
+    width: 100%;
+    margin: 0;
+}
+
+/* CONTAINERS */
+
+.header,
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15rem 5rem;
+    background-color: var(--clr-primary);
+}
+
+/* BLOCKS */
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: var(--clr-secondary);
+}
+
+.navbar__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar__link {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--clr-text);
+}
+
+.hero__title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: var(--clr-text);
+}
+
+.hero__text {
+    font-size: 18px;
+    color: var(--clr-text);
+}
+
+.hero__btn {
+    color: var(--clr-text);
+    background-color: var(--clr-accent);
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1.5rem;
+}
+
+.hero__img {
+    flex-grow: 1;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80848e;
+}
