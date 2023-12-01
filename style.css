@@ -43,6 +43,11 @@ body {
     gap: 4rem;
 }
 
+.quote {
+    background-color: var(--clr-text);
+    padding: 7rem 15rem;
+}
+
 /* BLOCKS */
 
 .header__logo {
@@ -124,4 +129,21 @@ body {
 .card__text {
     color: #80848e;
     margin: 0.5rem 0;
+}
+
+.quote__text {
+    color: var(--clr-primary);
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    position: relative;
+}
+
+.quote__ref {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    position: absolute;
+    bottom: -3rem;
+    right: 3rem;
 }
