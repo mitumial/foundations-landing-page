@@ -3,7 +3,7 @@
     --clr-primary: #1f2937;
     --clr-secondary: #f9faf8;
     --clr-text: #e5e7eb;
-    --clr-accent: #3882f6;
+    --clr-accent: #bc8c38;
 
     /* FONTS */
     --ff-primary: "Roboto", sans-serif;
@@ -77,7 +77,14 @@ body {
 .header__logo {
     font-size: 24px;
     font-weight: bolder;
-    color: var(--clr-secondary);
+    color: var(--clr-accent);
+    display: flex;
+    align-items: center;
+}
+
+.header__logo > img {
+    height: 60px;
+    margin-right: 0.5rem;
 }
 
 .navbar__list {
