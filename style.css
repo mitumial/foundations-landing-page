@@ -34,6 +34,7 @@ body {
 
 .cards-wrapper {
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .cards-wrapper__inner {
@@ -52,7 +53,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin: 5rem 0;
 }
 
 .ad__inner {
@@ -169,6 +170,16 @@ body {
     position: absolute;
     bottom: -3rem;
     right: 3rem;
+}
+
+.ad__btn {
+    background-color: inherit;
+    color: var(--clr-secondary);
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid var(--clr-secondary);
+    border-radius: 10px;
+    padding: 0.1rem 2rem;
 }
 
 .copyright__text {
