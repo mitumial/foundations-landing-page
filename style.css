@@ -48,6 +48,29 @@ body {
     padding: 7rem 15rem;
 }
 
+.ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.ad__inner {
+    background-color: var(--clr-accent);
+    color: var(--clr-secondary);
+    padding: 2.5rem 6rem;
+    border-radius: 8px;
+    display: flex;
+    gap: 8rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--clr-primary);
+}
 /* BLOCKS */
 
 .header__logo {
@@ -146,4 +169,8 @@ body {
     position: absolute;
     bottom: -3rem;
     right: 3rem;
+}
+
+.copyright__text {
+    color: var(--clr-secondary);
 }
