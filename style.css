@@ -49,14 +49,14 @@ body {
     padding: 7rem 15rem;
 }
 
-.ad {
+.callout {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5rem 0;
 }
 
-.ad__inner {
+.callout__inner {
     background-color: var(--clr-accent);
     color: var(--clr-secondary);
     padding: 2.5rem 6rem;
@@ -189,7 +189,7 @@ body {
     right: 3rem;
 }
 
-.ad__btn {
+.callout__btn {
     background-color: inherit;
     color: var(--clr-secondary);
     font-size: 18px;
